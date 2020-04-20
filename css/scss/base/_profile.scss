@@ -1,0 +1,11 @@
+.profile {
+  padding: 0 80px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  line-height: 3rem;
+  &__tittle {
+    font-size: 3rem;
+  }
+}

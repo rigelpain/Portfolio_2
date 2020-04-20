@@ -1,0 +1,30 @@
+header {
+  position: fixed;
+  @include pc {
+    background-color: rgb(115, 214, 184);
+    color: $white;
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @include sp {
+    background-color: $thema1;
+    color: $white;
+    width: 100%;
+    padding: 15px 20px;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+  }
+  .tittle {
+    @include sp {
+      font-size: 2rem;
+    }
+    &-sub {
+      margin: 10px;
+      font-size: 1rem;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.accordion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 0 80px;
+  &__list {
+    width: 100%;
+  }
+  &__item {
+    padding: 20px 0;
+    img,
+    iframe {
+      width: 200px;
+      @include pc {
+        width: 400px;
+      }
+    }
+  }
+  a,
+  iframe,
+  &__inner {
+    display: block;
+    padding: 10px;
+    color: #444;
+    text-decoration: none;
+  }
+  &__btn {
+    width: 200px;
+    min-height: 50px;
+    font-size: 3rem;
+    word-break: keep-all;
+    ::before {
+      content: "\f150";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      display: inline-block;
+    }
+  }
+}

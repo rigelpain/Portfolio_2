@@ -1,82 +1,138 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/common.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c|Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title></title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="main.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c|Varela+Round&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-</head>
+  <body>
+    <header>
+      <span class="tittle">Rigel pain</span
+      ><span class="tittle-sub">- Haruaki's Portfolio -</span>
+    </header>
+    <div class="mv">
+      <div class="mv__icon-1"></div>
+    </div>
+    <div class="profile">
+      <p class="profile__tittle">
+        小林陽昭<br /><span class="text-small">Kobayashi<br />Haruaki</span>
+      </p>
+      <p class="profile__tittle">
+        函館高専5年<br /><span class="text-small"
+          >生産システム工学科<br />情報コース</span
+        >
+      </p>
+      <p class="profile__tittle">
+        はこだて未来大学<br /><span class="text-small"
+          >2年<br />情報デザイン（F）コース</span
+        >
+      </p>
+      <p class="profile__tittle">AGE : 20</p>
+    </div>
+    <div class="accordion-wrap">
+      <div class="accordion">
+        <ul class="accordion__list">
+          <div class="accordion__btn">参加したイベント</div>
+          <ul class="accordion__inner">
+            <li class="accordion__item">
+              <a href="https://youtu.be/Ns7Jl_c2VcI"
+                ><span class="text-small">HackU 2019 in 仙台</span></a
+              >
+              <iframe
+                src="https://www.youtube.com/embed/Ns7Jl_c2VcI?start=755"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <a href="https://youtu.be/Ns7Jl_c2VcI"
+                ><img src="./image/hacku2019sendai_1.jpg" alt=""
+              /></a>
+              <a href="https://youtu.be/Ns7Jl_c2VcI"
+                ><img src="./image/hacku2019sendai_2.jpg" alt=""
+              /></a>
+            </li>
+            <li class="accordion__item">
+              <a href="https://youtu.be/Uu_j_wUfwM4"
+                ><span class="text-small">HackU 2018 in 東京</span></a
+              >
+              <iframe
+                src="https://www.youtube.com/embed/Uu_j_wUfwM4?start=1674"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <a href="https://youtu.be/Uu_j_wUfwM4"
+                ><img src="./image/hacku2018tokyo_1.jpg" alt=""
+              /></a>
+              <a href="https://youtu.be/Uu_j_wUfwM4"
+                ><img src="./image/hacku2018tokyo_2.jpg" alt=""
+              /></a>
+            </li>
+            <li class="accordion__item">
+              <a href="https://youtu.be/JPkLbgTUMRE"
+                ><span class="text-small">HackU 2018 in 函館</span></a
+              >
+              <iframe
+                src="https://www.youtube.com/embed/JPkLbgTUMRE?start=1109"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <a href="https://youtu.be/JPkLbgTUMRE"
+                ><img src="./image/hacku2018hakodate_1.jpg" alt=""
+              /></a>
+              <a href="https://youtu.be/JPkLbgTUMRE"
+                ><img src="./image/hacku2018hakodate_2.jpg" alt=""
+              /></a>
+            </li>
+            <li class="accordion__item">
+              <a href="https://youtu.be/1yDJ2zCAccU"
+                ><span class="text-small">HackU 2017 in 東京</span></a
+              >
+              <iframe
+                src="https://www.youtube.com/embed/1yDJ2zCAccU?start=2650"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <a href="https://youtu.be/1yDJ2zCAccU"
+                ><img src="./image/hacku2017tokyo_1.jpg" alt=""
+              /></a>
+              <a href="https://youtu.be/1yDJ2zCAccU"
+                ><img src="./image/hacku2017tokyo_2.jpg" alt=""
+              /></a>
+            </li>
+          </ul>
 
-<body>
-  <header>
-    <p class="tittle">rigel pain<br><span class="tittle-small">Haruaki's Portfolio</span></p>
-  </header>
-  <div class="profile">
-    <img class="profile__icon" src="rab.svg" alt="">
-    <p class="prfile__name">小林陽昭<br><span class="text-small">Kobayashi<br>Haruaki</span></p>
-    <p class="prfile__school">函館高専5年<br><span class="text-small">生産システム工学科<br>情報コース</span></p>
-    <p class="prfile__age">AGE : 20</p>
-  </div>
-  <div>
-    <ul class="accordion">
-      <p class="accordion__btn">参加したイベント</p>
-      <ul class="accordion__inner">
-        <li class="accordion__item">
-          <a href="https://youtu.be/Ns7Jl_c2VcI"><span class="text-small">HackU 2019 in 仙台</span></a>
-          <iframe src="https://www.youtube.com/embed/Ns7Jl_c2VcI?start=755" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <a href="https://youtu.be/Ns7Jl_c2VcI"><img src="hacku2019sendai_1.jpg" alt=""></a>
-          <a href="https://youtu.be/Ns7Jl_c2VcI"><img src="hacku2019sendai_2.jpg" alt=""></a>
-        </li>
-        <li class="accordion__item">
-          <a href="https://youtu.be/Uu_j_wUfwM4"><span class="text-small">HackU 2018 in 東京</span></a>
-          <iframe src="https://www.youtube.com/embed/Uu_j_wUfwM4?start=1674" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <a href="https://youtu.be/Uu_j_wUfwM4"><img src="hacku2018tokyo_1.jpg" alt=""></a>
-          <a href="https://youtu.be/Uu_j_wUfwM4"><img src="hacku2018tokyo_2.jpg" alt=""></a>
-        </li>
-        <li class="accordion__item">
-          <a href="https://youtu.be/JPkLbgTUMRE"><span class="text-small">HackU 2018 in 函館</span></a>
-          <iframe src="https://www.youtube.com/embed/JPkLbgTUMRE?start=1109" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <a href="https://youtu.be/JPkLbgTUMRE"><img src="hacku2018hakodate_1.jpg" alt=""></a>
-          <a href="https://youtu.be/JPkLbgTUMRE"><img src="hacku2018hakodate_2.jpg" alt=""></a>
-        </li>
-        <li class="accordion__item">
-          <a href="https://youtu.be/1yDJ2zCAccU"><span class="text-small">HackU 2017 in 東京</span></a>
-          <iframe src="https://www.youtube.com/embed/1yDJ2zCAccU?start=2650" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <a href="https://youtu.be/1yDJ2zCAccU"><img src="hacku2017tokyo_1.jpg" alt=""></a>
-          <a href="https://youtu.be/1yDJ2zCAccU"><img src="hacku2017tokyo_2.jpg" alt=""></a>
-        </li>
-      </ul>
-
-      <p class="accordion__btn">名刺</p>
-      <ul class="accordion__inner">
-
-        <li class="accordion__item">
-          <p class="text-small">2019 ver.</p>
-          <img src="card_2.svg" alt="">
-        </li>
-        <li class="accordion__item">
-          <p class="text-small">2018 ver.</p>
-          <img src="card_1.svg" alt="">
-        </li>
-      </ul>
-
-    </ul>
-  </div>
-  <div>
-
-  </div>
-  <footer>
-
-  </footer>
-</body>
-
+          <div class="accordion__btn">名刺</div>
+          <ul class="accordion__inner">
+            <li class="accordion__item">
+              <p class="text-small">2019 ver.</p>
+              <img src="./image/card_2.svg" alt="" />
+            </li>
+            <li class="accordion__item">
+              <p class="text-small">2018 ver.</p>
+              <img src="./image/card_1.svg" alt="" />
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+    <div></div>
+    <footer></footer>
+  </body>
 </html>
