@@ -12,9 +12,9 @@
       width: 200px;
       height: 200px;
       border-radius: 50%;
-      border: solid 4px $thema1;
+      border: solid 4px $thema-1;
       transition: all 1000ms 0s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-      background-image: url(../../../image/rab.svg);
+      background-image: url(../image/thum_rab.jpg);
       background-size: contain;
       background-position: center;
       &:hover {

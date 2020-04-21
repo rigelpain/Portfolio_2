@@ -11,7 +11,11 @@ ul,
 ol,
 li {
   list-style: none;
-  padding-inline-start: 0;
+  padding-inline-start: unset;
+  margin-block-start: unset;
+  margin-block-end: unset;
+  margin-inline-start: unset;
+  margin-inline-end: unset;
 }
 
 .text-small {

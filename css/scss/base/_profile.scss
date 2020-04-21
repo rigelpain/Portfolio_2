@@ -1,11 +1,16 @@
 .profile {
-  padding: 0 80px;
+  padding: 80px 80px;
   display: flex;
   justify-content: center;
   align-items: left;
   flex-direction: column;
   line-height: 3rem;
+  @include sp {
+    background-color: $thema-1;
+  }
+
   &__tittle {
     font-size: 3rem;
+    color: $font-thema-1;
   }
 }
